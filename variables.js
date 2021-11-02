@@ -3,13 +3,11 @@
 
 //CODE HERE 
 let myName = 'Cameron'
-
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 let faveNum = 34
-
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
@@ -34,6 +32,6 @@ if (faveNum === 13){
 */
 
 //CODE HERE
-for (i = 0; i < 5; i++){
-  console.log(faveNum)
+for(let i = 0; i <= 5; i++){
+console.log(faveNum)
 }

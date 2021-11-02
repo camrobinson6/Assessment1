@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-var gitDefinition = 'Git is used to store the source code for a project and track the complete history of all changes to that code.'
+let gitDefinition = 'Git is used to store the source code for a project and track the complete history of all changes to that code.'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@ var gitDefinition = 'Git is used to store the source code for a project and trac
 */
 
 //CODE HERE
-var gitHubDefinition = 'GitHub is a web-based version-control and collaboration platform for software developers.'
+let gitHubDefinition = 'GitHub is a web-based version-control and collaboration platform for software developers.'
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,9 +34,10 @@ var gitHubDefinition = 'GitHub is a web-based version-control and collaboration 
 */
 
 //CODE HERE
-let init = 'This will turn your current directory into a repository.' 
-           'git init'
-        
+const init = {
+    description: "This will turn your current directory into a repository",
+    code: "git init",
+};
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -44,8 +45,10 @@ let init = 'This will turn your current directory into a repository.'
 */
 
 //CODE HERE
-let clone = 'used to target an existing repository and create a clone, or copy of the target repository.'
-            'git clone ://john@example.com/path/to/my-project.git cd'
+const clone = {
+    description: 'used to target an existing repository and create a clone, or copy of the target repository.',
+    code: 'git clone ://john@example.com/path/to/my-project.git cd',
+};
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -53,8 +56,10 @@ let clone = 'used to target an existing repository and create a clone, or copy o
 */
 
 //CODE HERE
-let status = 'to make sure it is not already a git repository'
-             'git status'
+const status = {
+   description: 'to make sure it is not already a git repository',
+   code:'git stat us',
+};
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -62,8 +67,10 @@ let status = 'to make sure it is not already a git repository'
 */
 
 //CODE HERE
-let add = 'add the file or directory you want to commit'
-          'git add .'
+const add = {
+    description: 'add the file or directory you want to commit',
+    code: 'git add .',
+};
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -71,8 +78,10 @@ let add = 'add the file or directory you want to commit'
 */
 
 //CODE HERE
-let commit = 'commit your work with a helpful message'
-             'git commit -m "YOUR COMMIT MESSAGE"'
+const commit = {
+   description: 'commit your work with a helpful message',
+   code: 'git commit -m "YOUR COMMIT MESSAGE"'
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -81,5 +90,7 @@ let commit = 'commit your work with a helpful message'
 */
 
 //CODE HERE
-let push = 'is used to upload local repository content to a remote repository'
-           'git push'
+const push = {
+  description:  'is used to upload local repository content to a remote repository',
+  code: 'git push',
+};

@@ -7,8 +7,16 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
+reader.question("Please enter your password.", function(input){
+
+if(input.length >= 10) { 
+    console.log('Correct password!');
+} else { 
+console.log('Wrong password!');
+}
 
 
-reader.question("What would you like to calculate?", function(input){
-	tokens = input.split(' ');
-    
+reader.close()
+
+});
+
